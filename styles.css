@@ -1,0 +1,96 @@
+body {
+    background-color: #444;
+    color: #eed;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.tablero {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    background-image: url("assets/tab1.avif");
+    background-position: center center;
+    background-size: cover;
+}
+
+.mensajeFinal {
+    visibility: hidden;
+}
+
+.contenedorBoton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.boton {
+    background-color: transparent;
+    font-size: 2em;
+}
+
+.botonesFocus {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 6px;
+    transition: transform 0.3s;
+    background-color: #6e6cf7;
+    font-family: "Courier New", Courier, monospace;
+    color: #fff;
+}
+
+.reiniciar {
+    background-color: #04aa6d;
+}
+
+.botonesFocus:hover {
+    background-color: #0b7dda;
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.tableros {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 520px) {
+    .tablero {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        margin-top: auto;
+    }
+
+    h1,
+    h2 {
+        margin: 40px auto;
+    }
+
+    .tableros {
+        width: 60%;
+    }
+}
