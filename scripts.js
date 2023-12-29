@@ -1,4 +1,3 @@
-let turno = 1;
 let fichas = ["🟢", "❌"];
 let partidaAcabada = false;
 let botones = Array.from(document.querySelectorAll(".boton"));
@@ -8,7 +7,6 @@ winner = false;
 const tablero = document.getElementById("tablero");
 const mensajeFinal = document.querySelector(".mensajeFinal");
 const jsConfetti = new JSConfetti();
-const posiciones = [];
 
 document.getElementById("reiniciar").addEventListener("click", () => {
     for (let i = 0; i < botones.length; i++) {
