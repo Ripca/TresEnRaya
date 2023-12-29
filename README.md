@@ -1,6 +1,6 @@
 # Tres en Raya
 
-Esta es una página para poder jugar tres en raya, cuenta con 3 tableros y se puede jugar en telefonos.
+Esta es una página para poder jugar tres en raya, cuenta con 3 tableros y se puede jugar en teléfonos.
 
 **Technologies used**:
 
