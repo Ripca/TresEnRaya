@@ -1,7 +1,7 @@
 body {
     background-color: #444;
     color: #eed;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier Prime", monospace;
 }
 
 h1,
@@ -74,15 +74,9 @@ h1 {
 
 @media screen and (max-width: 520px) {
     .tablero {
-        border-radius: 20px;
-        overflow: hidden;
         width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        display: grid;
         grid-template-columns: repeat(3, 100px);
         grid-template-rows: repeat(3, 100px);
-        margin-top: auto;
     }
 
     h1,
